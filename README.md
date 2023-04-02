@@ -399,7 +399,7 @@ If you don't have anything that you don't understand, tell me "Yes i understand 
 
 Also tell me your understanding about Error handling and Output.
 
-
+-----------------
 
 # Sample One
 ## Requirement Title
@@ -420,6 +420,8 @@ Give a short description of the overall objective and purpose of the requirement
 ## Additional Information
 - If necessary, provide any other relevant information, such as links to resources, examples, or context that will help in understanding the requirement.
 1. Data format sample
+
+-----------------
 
 # Sample Two
 ```
@@ -501,5 +503,5 @@ Give a short description of the overall objective and purpose of the requirement
             return _page_500_error( web_asset_path, "index_page", traceback.format_exc() )
 ```
 
-# Execute
-Now you can start generate the code for me.
+# Conclusion
+Hi chatGPT, if you have done study the coding standard, please reply "I had checked the coding standard that you posted on Github."
