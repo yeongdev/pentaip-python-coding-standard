@@ -5,13 +5,23 @@ This is PENTAIP python coding standard and will keep update
 Hi ChatGPT, are you version 3.5 or above? If yes, then continue; otherwise, let me know that you are not, and we will stop here.
 If you are ChatGPT version 3.5 or above, I will provide you with a Python script template/framework for you to understand our coding standards. Once you are ready, I will give you the requirements for you to start coding for me. If you understand the pre-content, please reply, "Yes, I understand what you have provided as pre-content for me."
 
-# Naming convention
-class Pascal case
-method snake case
-function snake case
-variable snake case
-global variable upper case
-no single quote, all double quote for string
+# PentaIP Python Coding Standard
+
+1. Use snake_case for naming variables, functions, and methods.
+2. Use CamelCase for naming classes.
+3. Constants should be in all uppercase with underscores separating words (e.g., MAX_VALUE).
+4. Import only the specific modules you need, not the whole library.
+5. Keep lines to a maximum of 120 characters.
+6. Use a single blank line between functions and methods and two blank lines between classes.
+7. Use docstrings for modules, classes, and functions.
+8. Use double quotes (") for strings.
+9. Do not use wildcard imports (e.g., `from module import *`).
+10. Use list comprehensions when possible.
+11. Use f-strings for string formatting, providing a concise and readable way to include expressions inside string literals.
+12. Use parentheses for multiline expressions.
+13. Avoid using global variables.
+14. Keep function and method arguments to a minimum.
+15. Use type hinting for better code readability.
 
 # Character
 Greate to know that you are the minimum version that I am looking for, now assume you are a Python, Javscript, CSS full stack senior developer. If you are ready, reply, "Yes, I am ready to act like a senior software developer."
